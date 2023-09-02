@@ -1,0 +1,39 @@
+/* styles/register.css */
+
+  
+.reg-container {
+    margin-top: 10%;
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+    padding: 10px;
+  }
+  
+  .reg-form {
+    border-color: #000;
+    border-radius: 5px;
+    padding: 20px; /* Increase padding for better spacing on larger screens */
+    background-color: #fff;
+  }
+  .btn-one{
+    margin-left: 10px;
+  }
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .reg-container {
+      margin-top: 20%;
+    }
+    
+    .reg-form {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .reg-container {
+      margin-top: 30%;
+    }
+    
+    .reg-form {
+      padding: 10px;
+    }
+  }
+  
